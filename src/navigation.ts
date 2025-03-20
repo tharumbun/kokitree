@@ -4,7 +4,7 @@ export const headerData = {
 
   links: [
     {
-      text: 'Homes',
+      text: 'Home',
       links: [
         {
           text: 'Startup',
@@ -50,7 +50,7 @@ export const headerData = {
       text: 'Blog',
       links: [
         {
-          text: 'Blog List',
+          text: 'Reviews',
           href: getBlogPermalink(),
         },
         {
