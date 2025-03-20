@@ -5,14 +5,11 @@ export const headerData = {
     {
       text: 'Home',
       links: [
-        {
-          text: 'home',
-          href: getPermalink('/'),
-        },        
+      href: '#',
       ],
     },
     {
-      text: 'Pages',
+      text: 'Start here',
       links: [
         {
           text: 'Services',
