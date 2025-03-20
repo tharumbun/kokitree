@@ -83,7 +83,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
+      text: 'About us',
       href: '#',
     },
   ],
@@ -95,12 +95,7 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
+        { text: 'Brandable Domain Names', href: '#' },
         { text: 'Resources', href: '#' },
       ],
     },
