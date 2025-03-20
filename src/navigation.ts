@@ -1,15 +1,20 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
+
+
 export const headerData = {
   links: [
     {
       text: 'Home',
       links: [
-      href: '#',
+        {
+          text: 'Home',
+          href: getPermalink('/'),
+        },        
       ],
     },
     {
-      text: 'Start here',
+      text: 'Pages',
       links: [
         {
           text: 'Services',
@@ -51,10 +56,13 @@ export const headerData = {
         },
       ],
     },
-    {
+{
       text: 'About us',
-      href: '#',
-    },
+      links: [
+        {
+          text: 'Our Story',
+          href: getPermalink('/about'),
+        },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
