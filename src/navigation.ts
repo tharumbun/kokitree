@@ -1,14 +1,12 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
+
   links: [
     {
-      text: 'Homes',
-      links: [
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
+      text: 'Home',
+      href: '#',
+    },
       ],
     },
     {
@@ -59,7 +57,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'About Us',
+      text: 'About',
       href: '#',
     },
   ],
