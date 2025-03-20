@@ -4,15 +4,6 @@ export const headerData = {
 
   links: [
     {
-      text: 'Home',
-      links: [
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-      ],
-    },
-    {
       text: 'Start Here',
       links: [
         {
@@ -29,6 +20,19 @@ export const headerData = {
         },
       ],
     },
+
+    {
+      text: 'Home',
+      links: [
+        {
+          text: 'Startup',
+          href: getPermalink('/homes/startup'),
+        },
+      ],
+    },
+
+
+
     {
       text: 'Landing',
       links: [

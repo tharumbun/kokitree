@@ -64,9 +64,6 @@ const postCollection = defineCollection({
     metadata: metadataDefinition(),
   }),
 
-  // Generate a URL-friendly slug that includes "/posts/"
-  slug: ({ id }) => `posts/${id.replace(/\.mdx?$/, '')}`,
-
 });
 
 export const collections = {
