@@ -22,10 +22,10 @@ export const headerData = {
     },
 
     {
-      text: 'Home',
+      text: 'Brandable Roots',
       links: [
         {
-          text: 'Startup',
+          text: 'CamboDomains',
           href: getPermalink('/homes/startup'),
         },
       ],
