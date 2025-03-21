@@ -55,9 +55,7 @@ export const headerData = {
     },
     {
       text: 'About',
-      href: '#',
-    },
-
+      links: [
         {
           text: 'About us',
           href: getPermalink('/about'),
@@ -66,7 +64,7 @@ export const headerData = {
           text: 'Contact',
           href: getPermalink('/contact'),
         },
-    
+
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
