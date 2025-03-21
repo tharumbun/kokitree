@@ -16,8 +16,8 @@ export const headerData = {
       text: 'Brandable Roots',
       links: [
         {
-          text: 'CamboDomains',
-          href: getPermalink('/homes/startup'),
+          text: 'Domain Names',
+          href: getPermalink('/homes/product'),
         },
       ],
     },
@@ -42,12 +42,8 @@ export const headerData = {
       text: 'Blog',
       links: [
         {
-          text: 'Reviews',
+          text: 'Reviews & How-to',
           href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
       ],
     },
@@ -65,7 +61,6 @@ export const headerData = {
       ],
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
