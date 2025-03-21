@@ -12,7 +12,6 @@ export const headerData = {
         },
       ],
     },
-
     {
       text: 'Brandable Roots',
       links: [
@@ -22,7 +21,6 @@ export const headerData = {
         },
       ],
     },
-
     {
       text: 'Landing',
       links: [
@@ -64,7 +62,8 @@ export const headerData = {
           text: 'Contact',
           href: getPermalink('/contact'),
         },
-
+      ],
+    },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
