@@ -17,7 +17,7 @@ export const headerData = {
       links: [
         {
           text: 'Domain Names',
-          href: getPermalink('/homes/product'),
+          href: getPermalink('/homes/domain'),
         },
       ],
     },
@@ -27,10 +27,6 @@ export const headerData = {
         {
           text: 'Long-form Sales',
           href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Product',
-          href: getPermalink('/landing/product'),
         },
         {
           text: 'Subscription',
@@ -68,7 +64,7 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Brandable Domain Names', href: '#' },
+        { text: 'Brandable Domain Names', href: 'domain' },
         { text: 'Resources', href: '#' },
       ],
     },
@@ -76,7 +72,7 @@ export const footerData = {
       title: 'Platform',
       links: [
         { text: 'Astro', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Headless WordPress CMS', href: '#' },
       ],
     },
     {
