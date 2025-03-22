@@ -64,7 +64,7 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Brandable Domain Names', href: 'homes/domain' },
+        { text: 'Brandable Domain Names', href: 'domain' },
         { text: 'Resources', href: '#' },
       ],
     },
@@ -72,7 +72,7 @@ export const footerData = {
       title: 'Platform',
       links: [
         { text: 'Astro', href: '#' },
-        { text: 'Headless WordPress CMS', href: '#' },
+        { text: 'JamStack', href: '#' },
       ],
     },
     {
