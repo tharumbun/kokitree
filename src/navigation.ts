@@ -51,7 +51,7 @@ export const headerData = {
       text: 'About',
       links: [
         {
-          text: 'About us',
+          text: 'kokitree',
           href: getPermalink('/about'),
         },
         {
