@@ -64,7 +64,7 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Brandable Domain Names', href: 'domain' },
+        { text: 'Brandable Domain Names', href: 'https://kokitree.com/homes/domain' },
         { text: 'Resources', href: '#' },
       ],
     },
