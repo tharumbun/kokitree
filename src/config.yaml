@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: kokitree
-    template: '%s — AstroWind'
+    template: '%s — kokitree'
   description: "forging the dot & dash"
   robots:
     index: true
