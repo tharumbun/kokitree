@@ -40,184 +40,42 @@ const metadata = {
 
     <Fragment slot="subtitle">
     <span class="font-semibold">a friendly marketplace</span> where local creators<span class="block mb-1 am:hidden font-bold text-blue-600">sell </span> cool 
-</span>hearts and minds
-digital stuff
+</span>digital stuff
     </Fragment>
   </Hero>
 
   <!-- Features Widget *************** -->
   <Features
     id="features"
-    tagline="Services"
+    tagline="Browse Products"
     title="We help you"
     subtitle="build authentic online identity with captivating websites and powerful storytelling."
     items={[
       {
-        title: 'Web & Blog',
+        title: 'Website & Blog',
         description:
           'Stunning, user-friendly websites tailored to your brand.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Brand Storytelling',
+        title: 'Brandable Domain Names',
         description:
           'Compelling narratives that make your brand unforgettable.',
         icon: 'tabler:components',
       },
       {
-        title: 'Content Strategy & SEO',
+        title: 'E-Books',
         description:
           'Smart content and optimization to boost visibility and engagement.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Custom Branding Solutions',
+        title: 'Photographs',
         description:
           'Unique logos, visuals, and identity designs that set you apart.',
         icon: 'tabler:rocket',
       },
     ]}
-  />
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    tagline="What & Why"
-    title="Powerful Storytelling & Messaging"
-    items={[
-      {
-        title: 'Define Your Core Narrative',
-        description:
-          'What makes you different? What impact do you want to create?',
-      },
-      {
-        title: 'Connect with Emotion',
-        description:
-          'Use relatable characters, real-world challenges, and authentic experiences to forge a deeper connection with your audience.',
-      },
-      {
-        title: 'Deliver with Clarity & Consistency',
-        description:
-          'A consistent voice strengthens trust and brand recognition.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Turn your brand into a story worth remembering.</h3>
-      Through powerful storytelling, we craft narratives that captivate, connect, and inspire action.
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'Research & Plan',
-        description:
-          'Create a data-driven content plan',
-      },
-      {
-        title: 'Create & Optimize',
-        description:
-          "Craft high-quality, valuable content that resonates with your audience",
-      },
-      {
-        title: 'Distribute & Measure',
-        description:
-          'Continuously refine your strategy based on data insights to improve',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ensure your online presence truly represents you.</h3></Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Iteration',
-        description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
-      },
-      {
-        title: 'Optimization',
-        description:
-          'Optimize your strategy with data-driven tools and best practices',
-      },
-      {
-        title: 'Scalability',
-        description: `Scale your success through continuous learning and community support.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Designed to foster growth and success.</h3>
-</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="Get your dream website up and running in no time with kokitree."
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Find the Perfect Domain Name</span>',
-        description:
-          "pick a brandable, memorable, and SEO-friendly domain",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Platform Setup & Optimization</span>',
-        description:
-          "Platform selection, hosting, design, optimization, and security",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Add content</span>',
-        description:
-          'Pour your vision into it.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
   />
 
 
@@ -228,45 +86,5 @@ digital stuff
     information={`With our in-depth reviews and how-tos, you’ll gain the knowledge and skills needed to grow.`}
   />
 
-  <!-- FAQs Widget ******************* -->
-
-  <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Answers you seek here, guiding your digital path, clarity awaits."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'How long does it take to build a website?',
-        description:
-          "The timeline varies depending on complexity, but most projects take 2–6 weeks from concept to launch.",
-      },
-      {
-        title: 'Do I need technical skills to manage my website?',
-        description:
-          'No! We create user-friendly websites with intuitive management tools, and we provide training if needed.',
-      },
-      {
-        title: 'Will my website be optimized for search engines (SEO)?',
-        description:
-          "Yes! We ensure your site is SEO-friendly, with optimized content, fast loading speeds, and mobile responsiveness.",
-      },
-      {
-        title: "Can you help with branding and content creation?",
-        description:
-          "Absolutely! We offer brand storytelling, content strategy, and custom branding solutions to make your online presence stand out.",
-      },
-      {
-        title: 'What platforms do you use to build websites?',
-        description:
-          "We work with WordPress, Astro, and other modern frameworks to create scalable, high-performing websites.",
-      },
-      {
-        title: 'How do I get started?',
-        description:
-          "Simply contact us, and we’ll guide you through the process, from brainstorming to launching your website.",
-      },
-    ]}
-  />
 
 </Layout>
