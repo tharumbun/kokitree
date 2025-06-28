@@ -52,8 +52,8 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About', href: 'about' },
-        { text: 'Blog', href: 'blog' },
+        { text: 'About', href: 'https://kokitree.com/about/' },
+        { text: 'Blog', href: 'https://kokitree.com/blog/' },
       ],
     },
   ],
