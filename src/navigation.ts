@@ -4,34 +4,16 @@ export const headerData = {
 
   links: [
     {
-      text: 'Start Here',
+      text: 'Marketplace',
       links: [
         {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-      ],
-    },
-    {
-      text: 'Brandable Roots',
-      links: [
-        {
-          text: 'Domain Names',
+          text: 'Brandable Domain Names',
           href: getPermalink('/homes/domain'),
         },
-      ],
-    },
-    {
-      text: 'Landing',
-      links: [
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+          text: 'Website & blog ',
+          href: getPermalink('/homes/domain'),
+        },        
       ],
     },
     {
