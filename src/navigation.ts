@@ -8,11 +8,11 @@ export const headerData = {
       links: [
         {
           text: 'Brandable Domain Names',
-          href: getPermalink('/homes/domain'),
+          href: getPermalink('/marketplace/domain'),
         },
         {
           text: 'Website & blog ',
-          href: getPermalink('/homes/domain'),
+          href: getPermalink('/marketplace/weblog'),
         },        
       ],
     },
@@ -24,7 +24,7 @@ export const headerData = {
           href: getPermalink('/about'),
         },
         {
-          text: 'Reviews & How-to',
+          text: 'Blog',
           href: getBlogPermalink(),
         },        
         {
@@ -39,10 +39,10 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Marketplace',
       links: [
-        { text: 'Brandable Domain Names', href: 'https://kokitree.com/homes/domain' },
-        { text: 'Resources', href: '#' },
+        { text: 'Brandable Domain Names', href: 'https://kokitree.com/marketplace/domain' },
+        { text: 'Website & blog', href: 'https://kokitree.com/marketplace/weblog' },
       ],
     },
     {
