@@ -1,5 +1,5 @@
 site:
-  name: kokitree
+  name: Kokitree
   site: 'https://kokitree.com'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: kokitree
+    default: Kokitree
     template: '%s — kokitree.com'
   description: "forging the dot & dash"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: kokitree
+    site_name: Kokitree
     images:
       - url: '~/assets/images/default.png'
         width: 1200
