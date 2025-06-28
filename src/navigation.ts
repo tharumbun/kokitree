@@ -17,21 +17,16 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Reviews & How-to',
-          href: getBlogPermalink(),
-        },
-      ],
-    },
-    {
       text: 'About',
       links: [
         {
-          text: 'kokitree',
+          text: 'Kokitree',
           href: getPermalink('/about'),
         },
+        {
+          text: 'Reviews & How-to',
+          href: getBlogPermalink(),
+        },        
         {
           text: 'Contact',
           href: getPermalink('/contact'),
@@ -48,13 +43,6 @@ export const footerData = {
       links: [
         { text: 'Brandable Domain Names', href: 'https://kokitree.com/homes/domain' },
         { text: 'Resources', href: '#' },
-      ],
-    },
-    {
-      title: 'Platform',
-      links: [
-        { text: 'Astro', href: '#' },
-        { text: 'JamStack', href: '#' },
       ],
     },
     {
