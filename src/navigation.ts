@@ -15,7 +15,7 @@ export const headerData = {
           href: getPermalink('/marketplace/domain'),
         },
         {
-          text: 'Website & blog ',
+          text: 'Websites & blogs',
           href: getPermalink('/marketplace/weblog'),
         },        
       ],
