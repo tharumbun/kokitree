@@ -78,8 +78,39 @@ Cambodia’s hub
     ]}
   />
 
-
   <!-- HighlightedPosts Widget ******* -->
+
+
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    highlight="Delve depper"
+    title="With our in-depth reviews and how-tos ..."
+    items={[
+      {
+        title: 'For Creators',
+        description:
+          'We make it easy to turn your digital work into income. Upload your products, set your price, and get paid—without the tech headaches.',
+      },
+      {
+        title: 'For Buyers',
+        description:
+          'Looking for something original? Browse our curated digital collections and find products made with heart and purpose.',
+      },
+    ]}
+    image={{
+      src: import('~/assets/images/david-becker-crs2vlkSe98-unsplash.jpg'),
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Community-driven</h3>
+     We’re not just a marketplace—we’re a growing network of creatives, freelancers, and makers who support one another.
+            
+    </Fragment>
+  </Content>
+
 
   <BlogLatestPosts
     title="Delve deeper"
