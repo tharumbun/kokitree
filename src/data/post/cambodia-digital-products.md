@@ -11,6 +11,7 @@ categories:
 Cambodia is rapidly embracing the digital age. From bustling online marketplaces to innovative mobile apps and creative digital content, the Kingdom’s digital product ecosystem is thriving. What was once a largely offline economy is now being transformed by mobile-first consumers, savvy entrepreneurs, and growing investment in digital infrastructure. Whether you're a creator, a business owner, or simply curious about the digital shift, Cambodia offers fertile ground for innovation in digital products.
 
 ![A scenic photo](https://images.unsplash.com/photo-1715447415386-ea296e9715e6 "Photo by Pech Visoth on Unsplash")
+Photo by Pech Visoth on Unsplash
 
 ### A Mobile-First Nation
 
