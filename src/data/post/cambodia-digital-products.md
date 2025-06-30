@@ -1,6 +1,6 @@
 ---
 title: "The Rise of Digital Products in Cambodia"
-description: : A New Era of Innovation and Opportunity
+description: A New Era of Innovation and Opportunity
 excerpt: Whether you're a creator, a business owner, or simply curious about the digital shift, Cambodia offers fertile ground for innovation in digital products.
 publishDate: 2025-06-29
 categories: 
