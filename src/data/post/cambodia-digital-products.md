@@ -10,6 +10,8 @@ categories:
 
 Cambodia is rapidly embracing the digital age. From bustling online marketplaces to innovative mobile apps and creative digital content, the Kingdom’s digital product ecosystem is thriving. What was once a largely offline economy is now being transformed by mobile-first consumers, savvy entrepreneurs, and growing investment in digital infrastructure. Whether you're a creator, a business owner, or simply curious about the digital shift, Cambodia offers fertile ground for innovation in digital products.
 
+![A scenic photo](https://images.unsplash.com/photo-1715447415386-ea296e9715e6 "Photo by Pech Visoth on Unsplash")
+
 ### A Mobile-First Nation
 
 With over 70% internet penetration and one of the highest mobile connectivity rates in Southeast Asia, Cambodia is truly a mobile-first nation. Most Cambodians access the internet through smartphones, making digital products highly accessible across urban and rural areas alike. From Phnom Penh to Battambang, people are engaging with mobile apps, e-learning platforms, social media content, and mobile banking services more than ever before.
